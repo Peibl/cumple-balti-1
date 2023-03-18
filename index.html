@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Sitio Web de Imágenes</title>
+  <style>
+    /* Estilos CSS para el contenedor de imágenes */
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Estilos CSS para las imágenes */
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="images/1.jpg">
+    <img src="images/2.jpg">
+    <img src="images/3.jpg">
+    <img src="images/4.jpg">
+    <img src="images/5.jpg">
+    <img src="images/6.jpg">
+    <img src="images/7.jpg">
+    <img src="images/8.jpg">
+    <img src="images/9.jpg">
+    <img src="images/10.jpg">
+    <img src="images/11.jpg">
+    <img src="images/12.jpg">
+  </div>
+  <script>
+    // JavaScript para permitir el desplazamiento (scroll) del contenedor de imágenes
+    const imageContainer = document.querySelector('.image-container');
+    imageContainer.style.overflowY = 'scroll';
+  </script>
+</body>
+</html>
